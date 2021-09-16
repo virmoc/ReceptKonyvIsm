@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+main{
+    width:80% ;
+    max-width: 800px;
+    margin: auto;
+}
+main, footer, article, div{
+    border: 1px solid lightgray;
+    padding: 50px;
+}
+table, td, th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
+
+.jelenlegiSor{
+    background-color:lightseagreen;
+}
